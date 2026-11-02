@@ -1,0 +1,15 @@
+[package]
+name = "mini_lisp"
+version = "1.0.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Homework 9: a small arithmetic Lisp interpreter"
+publish = false
+
+[lints.rust]
+unsafe_code = "forbid"
+unused_must_use = "deny"
+
+[lints.clippy]
+let_underscore_must_use = "deny"
+unused_result_ok = "deny"
